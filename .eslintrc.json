@@ -1,0 +1,31 @@
+{
+    "env": {
+        "es2021": true
+    },
+    "extends": [
+        "airbnb-base",
+        "plugin:react-native/all",
+        "prettier",
+        "prettier/react"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "react-native",
+        "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error",
+      "react-native/no-unused-styles": 2,
+      "react-native/split-platform-components": 2,
+      "react-native/no-inline-styles": 2,
+      "react-native/no-color-literals": 2,
+      "react-native/no-raw-text": 2,
+      "react-native/no-single-element-style-arrays": 2,
+      "import/prefer-default-export": "off"
+    }
+}
